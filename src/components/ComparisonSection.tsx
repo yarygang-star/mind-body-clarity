@@ -24,7 +24,7 @@ const ComparisonSection = () => {
                 <span className="text-xl">⌚</span>
               </div>
               <div>
-                <h3 className="font-semibold text-foreground">Apple Health</h3>
+                <h3 className="font-semibold text-foreground">Smart Watch App</h3>
                 <p className="text-sm text-muted-foreground">What you see today</p>
               </div>
             </div>
