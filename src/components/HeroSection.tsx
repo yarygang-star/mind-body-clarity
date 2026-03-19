@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
+import { motion } from "framer-motion";
 import MetricsVisualization from "./MetricsVisualization";
 
 const HeroSection = () => {
@@ -20,7 +21,12 @@ const HeroSection = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Content */}
-          <div className="space-y-8 animate-fade-up">
+          <motion.div 
+            className="space-y-8"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
+          >
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 border border-accent/20">
               <Sparkles className="w-4 h-4 text-accent" />
@@ -72,12 +78,17 @@ const HeroSection = () => {
                 <p className="text-xs text-muted-foreground">Join the waitlist</p>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Right Column - Visualization */}
-          <div className="relative lg:pl-8 animate-fade-up" style={{ animationDelay: '0.2s' }}>
+          <motion.div 
+            className="relative lg:pl-8"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2, ease: [0.25, 0.46, 0.45, 0.94] }}
+          >
             <MetricsVisualization />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
