@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const benefits = [
   "AI-powered daily health briefings",
-  "Works with your Apple Watch",
+  "Works with any smartwatch",
   "No medical diagnoses — just clarity",
   "Early access pricing for founders",
 ];
@@ -33,8 +33,8 @@ const CTASection = () => {
                 Understand your health data
               </h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-xl mx-auto">
-                Join 2,400+ Apple Watch owners who want more than just numbers. 
-                Get early access to AI Health Brain.
+                Join 2,400+ smartwatch owners who want more than just numbers. 
+                Get early access to AI HEALTH FIT.
               </p>
 
               {/* Benefits */}

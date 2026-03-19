@@ -11,7 +11,7 @@ const ComparisonSection = () => {
             Numbers vs. Understanding
           </h2>
           <p className="text-lg text-muted-foreground">
-            Apple Health shows you data. We show you what to do with it.
+            Your smartwatch shows you data. We show you what to do with it.
           </p>
         </div>
 
@@ -24,7 +24,7 @@ const ComparisonSection = () => {
                 <span className="text-xl">⌚</span>
               </div>
               <div>
-                <h3 className="font-semibold text-foreground">Apple Health</h3>
+                <h3 className="font-semibold text-foreground">Smart Watch App</h3>
                 <p className="text-sm text-muted-foreground">What you see today</p>
               </div>
             </div>
@@ -63,7 +63,7 @@ const ComparisonSection = () => {
                   <span className="text-xl">🧠</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-foreground">AI Health Brain</h3>
+                  <h3 className="font-semibold text-foreground">AI HEALTH FIT</h3>
                   <p className="text-sm text-accent">What you'll understand</p>
                 </div>
               </div>

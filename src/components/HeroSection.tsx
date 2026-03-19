@@ -40,7 +40,7 @@ const HeroSection = () => {
 
             {/* Subheadline */}
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl leading-relaxed">
-              AI Health Brain transforms raw health data into personalized, actionable insights. 
+              AI HEALTH FIT transforms raw smartwatch data into personalized, actionable insights. 
               Know <em>why</em> your metrics change and <em>what</em> to do about it — every single day.
             </p>
 

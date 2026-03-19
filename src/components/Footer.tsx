@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="w-8 h-8 rounded-lg bg-accent/10 flex items-center justify-center">
               <Brain className="w-5 h-5 text-accent" />
             </div>
-            <span className="text-lg font-semibold text-foreground">AI Health Brain</span>
+            <span className="text-lg font-semibold text-foreground">AI HEALTH FIT</span>
           </div>
 
           {/* Links */}
@@ -36,7 +36,7 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-border/50 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2025 AI Health Brain. Not a medical device. For wellness insights only.
+            © 2025 AI HEALTH FIT. Not a medical device. For wellness insights only.
           </p>
         </div>
       </div>
