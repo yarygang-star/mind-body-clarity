@@ -1,4 +1,5 @@
 import { Brain, LineChart, Lightbulb, Calendar, Users, Shield } from "lucide-react";
+import AnimatedSection, { AnimatedItem } from "./AnimatedSection";
 
 const features = [
   {
@@ -49,35 +50,34 @@ const FeaturesSection = () => {
   return (
     <section id="features" className="py-24 relative">
       <div className="container mx-auto px-6">
-        {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <p className="text-accent font-medium mb-4">Features</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-            Intelligence that explains itself
-          </h2>
-          <p className="text-lg text-muted-foreground">
-            Unlike generic health apps, every recommendation includes the "why" — 
-            empowering you to understand your body and make informed decisions.
-          </p>
-        </div>
+        <AnimatedSection>
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <p className="text-accent font-medium mb-4">Features</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+              Intelligence that explains itself
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              Unlike generic health apps, every recommendation includes the "why" — 
+              empowering you to understand your body and make informed decisions.
+            </p>
+          </div>
+        </AnimatedSection>
 
-        {/* Features Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((feature, index) => (
-            <div
-              key={index}
-              className="group glass-card rounded-2xl p-6 hover:shadow-elevated transition-all duration-300"
-            >
-              <div className={`w-12 h-12 rounded-xl ${feature.bgColor} flex items-center justify-center ${feature.color} mb-4 group-hover:scale-110 transition-transform duration-300`}>
-                {feature.icon}
+            <AnimatedItem key={index} delay={index * 0.08}>
+              <div className="group glass-card rounded-2xl p-6 hover:shadow-elevated transition-all duration-300 h-full">
+                <div className={`w-12 h-12 rounded-xl ${feature.bgColor} flex items-center justify-center ${feature.color} mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                  {feature.icon}
+                </div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  {feature.title}
+                </h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  {feature.description}
+                </p>
               </div>
-              <h3 className="text-lg font-semibold text-foreground mb-2">
-                {feature.title}
-              </h3>
-              <p className="text-muted-foreground leading-relaxed">
-                {feature.description}
-              </p>
-            </div>
+            </AnimatedItem>
           ))}
         </div>
       </div>

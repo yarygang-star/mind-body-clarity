@@ -6,7 +6,9 @@ import DailyReportSection from "@/components/DailyReportSection";
 import HealthAlertsSection from "@/components/HealthAlertsSection";
 import ComparisonSection from "@/components/ComparisonSection";
 import CoachDashboardSection from "@/components/CoachDashboardSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
 import PricingSection from "@/components/PricingSection";
+import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
@@ -22,7 +24,9 @@ const Index = () => {
         <HealthAlertsSection />
         <ComparisonSection />
         <CoachDashboardSection />
+        <TestimonialsSection />
         <PricingSection />
+        <FAQSection />
         <CTASection />
       </main>
       <Footer />
