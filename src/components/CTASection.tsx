@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const benefits = [
   "AI-powered daily health briefings",
-  "Works with your Apple Watch",
+  "Works with any smartwatch",
   "No medical diagnoses — just clarity",
   "Early access pricing for founders",
 ];
