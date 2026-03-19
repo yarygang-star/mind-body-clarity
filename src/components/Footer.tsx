@@ -36,7 +36,7 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-border/50 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2025 AI Health Brain. Not a medical device. For wellness insights only.
+            © 2025 AI HEALTH FIT. Not a medical device. For wellness insights only.
           </p>
         </div>
       </div>

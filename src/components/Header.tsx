@@ -15,7 +15,7 @@ const Header = () => {
               <Brain className="w-6 h-6 text-accent" />
             </div>
             <span className="text-xl font-semibold text-foreground">
-              AI Health Brain
+              AI HEALTH FIT
             </span>
           </div>
 

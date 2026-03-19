@@ -63,7 +63,7 @@ const ComparisonSection = () => {
                   <span className="text-xl">🧠</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-foreground">AI Health Brain</h3>
+                  <h3 className="font-semibold text-foreground">AI HEALTH FIT</h3>
                   <p className="text-sm text-accent">What you'll understand</p>
                 </div>
               </div>
